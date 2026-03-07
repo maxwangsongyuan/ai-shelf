@@ -65,7 +65,7 @@ export interface ActionItem {
   description: string;
   gapReference: string;
   expectedImpact: string;
-  generatedContent?: string;
+  generatedContent?: string | null;
 }
 
 export type SSEEvent =
